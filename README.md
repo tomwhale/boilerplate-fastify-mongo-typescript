@@ -5,3 +5,4 @@ A repository that has the following pre-installed:
  - OneSignal
  - Typescript
  - Fastily
+ - Swagger
