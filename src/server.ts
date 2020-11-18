@@ -1,5 +1,5 @@
 import * as Fastify from 'fastify'
-import { configureConfgigPlugin, configureSwaggerPlugin } from './routes'
+import { configureSampleRoutes, configureSwaggerPlugin } from './routes'
 
 export default function createServer(opts?: Fastify.ServerOptions) {
   const app = Fastify(opts)
@@ -9,7 +9,7 @@ export default function createServer(opts?: Fastify.ServerOptions) {
   })
 
   configureSwaggerPlugin(app)
-  configureConfgigPlugin(app)
+  configureSampleRoutes(app)
 
   return app
 }

@@ -1,1 +1,0 @@
-export { configureConfgigPlugin } from './config.routes'

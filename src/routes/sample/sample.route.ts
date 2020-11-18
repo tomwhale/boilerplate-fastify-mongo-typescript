@@ -1,7 +1,7 @@
 import { FastifyInstance } from 'fastify'
-import createSingleHandler from './handlers/createSingleConfig.handler'
+import createSingleHandler from './handlers/createSingleSample.handler'
 
-export function configureConfgigPlugin(app: FastifyInstance) {
+export function configureSampleRoutes(app: FastifyInstance) {
   app.post('/config/', {
     schema: {
       description: 'config Creation API',

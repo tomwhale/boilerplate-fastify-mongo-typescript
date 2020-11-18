@@ -1,2 +1,2 @@
 export * from './swagger'
-export * from './config/config.routes'
+export * from './sample/sample.route'

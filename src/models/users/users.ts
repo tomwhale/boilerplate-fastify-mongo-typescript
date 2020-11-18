@@ -4,21 +4,12 @@ import { User } from './types'
 const User: Schema = new mongoose.Schema(
     {
       userId: {
-      type: String,
-      required: true,
+            type: String,
+            required: true,
       },
       givenName: String,
       familyName: String,
       phoneNumber: String,
-      defaultVisibility: {
-            type: String,
-            default: 'FRIENDS'
-      },
-      remindedDate: Date,
-      remindedCount: {
-        type: Number,
-        default: 0,
-      }
     },
     {
       timestamps: true
