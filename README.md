@@ -4,5 +4,5 @@ A repository that has the following pre-installed:
  - Mongoose
  - OneSignal
  - Typescript
- - Fastily
+ - Fastify
  - Swagger
